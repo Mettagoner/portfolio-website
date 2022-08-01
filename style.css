@@ -19,14 +19,26 @@ h1 {
 }
 
 p {
-  font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
   letter-spacing: 1.0px;
   line-height: 2;
 }
 
+ul {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1.0px;
+  line-height: 2;
+  list-style-type: square;
+}
+
 #slash {
   color: #ff5678;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .main {
@@ -88,16 +100,34 @@ p {
   max-width: 750px;
 }
 
+.info_wrapper {
+  padding-top: 1px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #aea29f;
+  background-color: #d9cbc7;
+  
+}
+
 /**BEGIN TOC CONTENT**/
 .toc {
   font-family: Arial, sans-serif;
   font-size: 30px;
-  line-height: 1.8;
+  line-height: 1.6;
   color: blue;
 
   margin-top: 120px;
-  padding: 0px 100px 20px 20px;
+  margin-bottom: 170px;
+  padding: 10px 100px 10px 10px;
+  background-color: #c1b5b1;
+  border-radius: 30px;
   display: inline-block;
+
+  border-style: solid;
+  border-color: #aea29f;
+  border-width: 6px;
 }
 
 #toc_header {
@@ -111,6 +141,7 @@ p {
 
 }
 .toc li {
+  font-size: 28px;
   list-style-type: none;
 }
 .toc a {
@@ -128,18 +159,17 @@ a:visited {
 
 /**BEGIN ABOUT_ME CONTENT**/
 .about_me {
-  margin-top: 10%;
+  margin-top: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #p_about_me {
   border-radius: 30px;
-  padding: 30px 30px 30px 30px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #3281a8;
-
-  background-color: #484442;
-  color: #F1E2DD;
+  padding: 50px 50px 30px 50px;
+  
+  background-color: #a99e9b;
+  color: #4c4c64;
 }
 /**END ABOUT_ME CONTENT**/
 
@@ -148,26 +178,17 @@ a:visited {
 
 /**BEGIN SKILLS CONTENT**/
 .skills {
-  margin-top: 10%;
+  margin-top: 6%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #p_skills {
     border-radius: 30px;
-    padding: 30px 30px 30px 30px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #3281a8;
-  
-    background-color: #484442;
-    color: #F1E2DD;
-}
-
-.skills ul {
-  font-family: Arial, sans-serif;
-  font-size: 20px;
-  letter-spacing: 1.0px;
-  line-height: 2;
-  list-style-type: square;
+    padding: 50px 50px 30px 50px;
+    
+    background-color: #a99e9b;
+    color: #4c4c64;
 }
 
 .skills li {
@@ -181,26 +202,17 @@ a:visited {
 
 /**BEGIN PROJECTS CONTENT**/
 .projects {
-  margin-top: 10%;
+  margin-top: 6%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #p_projects {
   border-radius: 30px;
-  padding: 30px 30px 30px 30px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #3281a8;
+  padding: 30px 50px 30px 50px;
 
-  background-color: #484442;
-  color: #F1E2DD;
-}
-
-.projects ul {
-  font-family: Arial, sans-serif;
-  font-size: 20px;
-  letter-spacing: 1.0px;
-  line-height: 2;
-  list-style-type: square;
+  background-color: #a99e9b;
+  color: #4c4c64;
 }
 
 .projects li {
@@ -213,19 +225,23 @@ a:visited {
 
 /**BEGIN LINKS CONTENT**/
 .links {
-  margin-top: 10%;
+  margin-top: 6%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #p_links {
   border-radius: 30px;
-  padding: 30px 30px 30px 30px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #3281a8;
-
-  background-color: #484442;
-  color: #F1E2DD;
+  padding: 50px 50px 30px 50px;
+  
+  background-color: #a99e9b;
+  color: #4c4c64;
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 22px;
   font-weight: bold;
+  letter-spacing: 1.0px;
+  line-height: 2;
 }
 
 #email {
@@ -237,7 +253,7 @@ a:visited {
 }
 
 #links_wrapper {
-  margin-left: 31%;
+  margin-left: 30%;
 }
 
 #github_img {
@@ -252,6 +268,7 @@ a:visited {
 	height: auto;
 	max-width: 200px;
 	border-radius: 30px;
+  margin-left: 40px;
 	padding: 20px 20px;
   background-color: #4c4c64;
 }
